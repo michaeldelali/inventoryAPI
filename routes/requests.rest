@@ -1,0 +1,25 @@
+POST http://localhost:9000/users/register
+Content-Type: application/json
+
+{
+    "name":"miqiADR",
+    "email":"miqi7@gmail.com",
+    "password":"fissh"
+}
+
+###
+
+
+
+POST http://localhost:9000/users/authenticate
+
+{
+    "name":"miqiADR",
+    "email":"miqi6@gmail.com",
+    "password":"fissh"
+}
+
+###
+GET http://localhost:9000/users/post
+Authorization: Bearer 6IkpXVCJ9.eyJuYW1lIjoibWlxaUFEUiIsImVtYWlsIjoibWlxaTZAZ21haWwuY29tIiwiaWF0IjoxNjEwNTM5MDIzfQ.8iycilSVuBMkfPwoUZVxQGRDqjdI6_dXvWLm-HhYwKY
+
